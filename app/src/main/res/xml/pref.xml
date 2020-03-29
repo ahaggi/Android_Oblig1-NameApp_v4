@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_name"
+        android:title="@string/name"
+        android:summary="Owner's name"
+        android:defaultValue="true" />
+    <Preference
+        android:key="pref_pic"
+        android:title="@string/picture"
+        android:dialogTitle="Owener's picture" />
+</PreferenceScreen>
